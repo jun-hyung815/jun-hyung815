@@ -1,87 +1,85 @@
 <div align="center">
 
-## 👋 Hello, I'm **Kim Jun-hyung**  
-임베디드 · 펌웨어 개발자를 목표로 공부하고 있습니다.
-
-# Tech Stack
-
-### Languages
-- C / C++
-- Python
-
-### Embedded & Firmware
-- STM32 (CubeIDE)
-- Arduino / ATmega128
-- GPIO, UART, SPI, I2C, PWM
-- BSP · Driver 개발 경험
-
-### System & Network
-- Linux (Ubuntu)
-- TCP/IP, Socket Programming
-- MariaDB
-
-### Vision / AI / SBC
-- OpenCV
-- Jetson Nano
-- Raspberry Pi
-- YOLO, EfficientNet 계열 모델 실습 경험
-
-
----
-
-# Projects
-
-## 무인 출입 통제 시스템 (IoT DoorLock)
-STM32, Arduino, Raspberry Pi, MariaDB 기반 IoT 시스템.  
-서버(DB)에 저장된 문 상태를 기준으로 각각의 장치가 문 개폐를 수행하도록 설계.  
-- STM32 : 비밀번호 인증 + 서보 제어  
-- Arduino : 관리자 강제 개폐 명령 처리  
-- Raspberry Pi : Wi-Fi 통신 / DB 갱신 및 중계  
-
----
-
-## 의류 이미지 분류 모델
-YOLOX-TINY와 EfficientNetV2를 활용하여 상·하의 이미지 분류 모델 구현.  
-Jetson Nano 환경에서 경량화 및 최적화 실험 진행.
-
----
-
-## Edge AI 기반 스마트 안경
-Jetson Nano + OpenCV 기반 착용형 디바이스.  
-실시간 영상 분석 결과를 음성으로 안내하는 기능 구현.  
-단말 내부에서 추론과 처리까지 수행하도록 구조 설계.
-
----
-
-## 캐봇 (Carrier Robot)
-ROS, Jetson Nano, Raspberry Pi, STM32를 기반으로 한 자율 이동 로봇.  
-카메라 기반 장애물 감지, ROS 메시지 통신, 서보/구동부 제어까지 전체 동작 플로우 구현.
-
----
-
-## 눈동자 기반 UI 제어
-OpenCV로 눈동자 방향을 분석하여 입력 신호로 매핑하는 제어 시스템 프로토타입 구현.
-
----
-
-# Profile
-
-- 서일고등학교 졸업  
-- 호서대학교 정보통신공학부 졸업  
-- 대한상공회의소 × Intel Edge AI SW 아카데미 7기 수료  
-
-### Education / 경험 요약
-- STM32 펌웨어 및 MCU 실습  
-- Linux 서버, Socket 기반 통신  
-- Raspberry Pi BSP & Device 제어  
-- Vision/AI 모델 활용 및 Edge 디바이스 포팅  
-- IoT 시스템 · DB 연동 · ROS 기반 로봇 시스템 경험  
-
----
-
-# Contact
-- Email : **try9151@naver.com**  
-- Phone : **010-8411-7429**
-ut=compact&theme=tokyonight)
+# **Kim Jun-hyung**
+임베디드 · 펌웨어 개발자를 목표로 꾸준히 성장하고 있습니다.
 
 </div>
+
+---
+
+## **TECH STACK**
+### ▸ Languages
+**C / C++ / Python**
+
+### ▸ Embedded & Firmware
+**STM32(CubeIDE) · Arduino · ATmega128**  
+**UART · SPI · I2C · PWM · GPIO**  
+**펌웨어·BSP 설계 및 드라이버 처리 경험**
+
+### ▸ System & Network
+**Linux(Ubuntu) · TCP/IP · Socket Programming · MariaDB**
+
+### ▸ Vision / AI / SBC
+**OpenCV · Jetson Nano · Raspberry Pi**  
+YOLO / EfficientNet 계열 모델 실습 경험
+
+---
+
+## **PROJECTS**
+
+### **1) 무인 출입 통제 시스템 (IoT DoorLock)**
+> *서버(DB)–STM32–Arduino–Raspberry Pi* 전체 흐름을 직접 설계한 IoT 기반 출입 통제 시스템  
+- DB 기반 문 상태 동기화  
+- STM32 비밀번호 인증 + 서보 제어  
+- Arduino 관리자 강제 제어  
+- Raspberry Pi의 Wi-Fi 연동 및 상태 갱신  
+
+---
+
+### **2) 의류 이미지 분류 모델**
+> YOLOX-Tiny · EfficientNetV2 기반 상·하의 이미지 분류 모델 구현  
+- Jetson Nano에서 실시간 추론  
+- 경량화 및 최적화 실험 진행
+
+---
+
+### **3) Edge AI 스마트 안경**
+> Jetson Nano + OpenCV 기반의 실시간 영상 분석 착용형 디바이스  
+- 카메라 영상 분석 → 음성 출력  
+- 단말 내부에서 추론까지 모두 처리하는 Edge 구조
+
+---
+
+### **4) 캐봇 (Carrier Robot)**
+> ROS + Jetson + Raspberry Pi + STM32 기반 자율 이동 로봇  
+- 장애물 감지 / 경로 설계  
+- ROS 메시지 기반 로봇 제어  
+- Jetson Vision + STM32 구동부 연동
+
+---
+
+### **5) 눈동자 기반 UI 제어**
+> OpenCV 기반 시선 방향 분석 → 입력 신호 변환  
+- UX 제어 시스템 프로토타입 구현
+
+---
+
+## **PROFILE**
+- 서일고등학교 졸업  
+- 호서대학교 정보통신공학부 졸업  
+- 대한상공회의소 × Intel Edge AI SW 아카데미 7기 수료 *(900시간)*  
+
+### ▸ Education Highlights
+- STM32 MCU · 임베디드 펌웨어  
+- Raspberry Pi BSP & Device 제어  
+- Linux 서버 & Socket 기반 통신  
+- Vision/AI 모델 개발 및 Edge 포팅  
+- IoT 시스템 아키텍처 설계  
+- ROS 로봇 시스템 실습  
+
+---
+
+## **CONTACT**
+📧 Email: **try9151@naver.com**  
+📱 Phone: **010-8411-7429**
+
