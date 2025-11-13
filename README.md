@@ -3,71 +3,85 @@
 ## 👋 Hello, I'm **Kim Jun-hyung**  
 임베디드 · 펌웨어 개발자를 목표로 공부하고 있습니다.
 
-📧 **Email** : try9151@naver.com  
+# Tech Stack
+
+### Languages
+- C / C++
+- Python
+
+### Embedded & Firmware
+- STM32 (CubeIDE)
+- Arduino / ATmega128
+- GPIO, UART, SPI, I2C, PWM
+- BSP · Driver 개발 경험
+
+### System & Network
+- Linux (Ubuntu)
+- TCP/IP, Socket Programming
+- MariaDB
+
+### Vision / AI / SBC
+- OpenCV
+- Jetson Nano
+- Raspberry Pi
+- YOLO, EfficientNet 계열 모델 실습 경험
+
 
 ---
 
-## ⚙ Tech Stack
+# Projects
 
-**Languages**  
-![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-044F88?style=flat&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3C78A9?style=flat&logo=python&logoColor=white)
-
-**Embedded / HW**  
-![STM32](https://img.shields.io/badge/STM32-03234B?style=flat&logo=stmicroelectronics&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat&logo=arduino&logoColor=white)
-![ATmega128](https://img.shields.io/badge/ATmega128-000080?style=flat&logo=arduino&logoColor=white)
-![BSP](https://img.shields.io/badge/BSP-2F4F4F?style=flat)
-
-**System / Network**  
-![Linux](https://img.shields.io/badge/Linux-F9D342?style=flat&logo=linux&logoColor=black)
-![TCP/IP](https://img.shields.io/badge/TCP%2FIP-003366?style=flat)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
-
-**AI / Vision / SBC**  
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
-![Jetson Nano](https://img.shields.io/badge/Jetson%20Nano-76B900?style=flat&logo=nvidia&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat&logo=raspberrypi&logoColor=white)
+## 무인 출입 통제 시스템 (IoT DoorLock)
+STM32, Arduino, Raspberry Pi, MariaDB 기반 IoT 시스템.  
+서버(DB)에 저장된 문 상태를 기준으로 각각의 장치가 문 개폐를 수행하도록 설계.  
+- STM32 : 비밀번호 인증 + 서보 제어  
+- Arduino : 관리자 강제 개폐 명령 처리  
+- Raspberry Pi : Wi-Fi 통신 / DB 갱신 및 중계  
 
 ---
 
-# 🚀 Projects
-
-### 🔐 무인 출입 통제 시스템  
-**STM32 · Arduino · Raspberry Pi · MariaDB · WiFi/Bluetooth**  
-> 서버(DB) 상태 기반으로 문 개폐를 제어하는 IoT 통합 시스템  
-→ *STM32 비밀번호 인증 / Arduino 강제 제어 / RPi–DB 통신 흐름 구현*
+## 의류 이미지 분류 모델
+YOLOX-TINY와 EfficientNetV2를 활용하여 상·하의 이미지 분류 모델 구현.  
+Jetson Nano 환경에서 경량화 및 최적화 실험 진행.
 
 ---
 
-### 👕 의류 분류 및 이미지 인식  
-**YOLOX-TINY · EfficientNetV2**  
-> 이미지 기반의 상·하의 분류 모델 구현
+## Edge AI 기반 스마트 안경
+Jetson Nano + OpenCV 기반 착용형 디바이스.  
+실시간 영상 분석 결과를 음성으로 안내하는 기능 구현.  
+단말 내부에서 추론과 처리까지 수행하도록 구조 설계.
 
 ---
 
-### 👓 스마트 안경  
-**Jetson Nano · OpenCV · AI · Server Communication**  
-> 실시간 영상 분석 + 음성출력 기능의 착용형 인공지능 디바이스
+## 캐봇 (Carrier Robot)
+ROS, Jetson Nano, Raspberry Pi, STM32를 기반으로 한 자율 이동 로봇.  
+카메라 기반 장애물 감지, ROS 메시지 통신, 서보/구동부 제어까지 전체 동작 플로우 구현.
 
 ---
 
-### 🤖 캐봇 (Carrier Robot – 캐리어 운반 로봇)  
-**ROS · Jetson Nano · Raspberry Pi · STM32 · OpenCV**  
-> 자율 이동 기반 캐리어 운반 서비스 로봇 구현 (ROS2 기반 제어 포함)
+## 눈동자 기반 UI 제어
+OpenCV로 눈동자 방향을 분석하여 입력 신호로 매핑하는 제어 시스템 프로토타입 구현.
 
 ---
 
-### 👁️ 눈동자 기반 디바이스 제어  
-**OpenCV · C**  
-> 시선 방향 분석 → 디바이스 제어 신호 변환 기능 구현
+# Profile
+
+- 서일고등학교 졸업  
+- 호서대학교 정보통신공학부 졸업  
+- 대한상공회의소 × Intel Edge AI SW 아카데미 7기 수료  
+
+### Education / 경험 요약
+- STM32 펌웨어 및 MCU 실습  
+- Linux 서버, Socket 기반 통신  
+- Raspberry Pi BSP & Device 제어  
+- Vision/AI 모델 활용 및 Edge 디바이스 포팅  
+- IoT 시스템 · DB 연동 · ROS 기반 로봇 시스템 경험  
 
 ---
 
-## 📊 GitHub Stats
-
-![Junhyung's GitHub stats](https://github-readme-stats.vercel.app/api?username=jun-hyung815&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jun-hyung815&layout=compact&theme=tokyonight)
+# Contact
+- Email : **try9151@naver.com**  
+- Phone : **010-8411-7429**
+ut=compact&theme=tokyonight)
 
 </div>
